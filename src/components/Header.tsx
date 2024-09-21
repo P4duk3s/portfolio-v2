@@ -65,7 +65,7 @@ export const Header: React.FC<HeaderProps> = props => {
                     </span>
                     <a href="https://github.com/P4duk3s" target="_blank">
                         <img
-                            src="/src/assets/icons/github.png"
+                            src="icons/github.png"
                             className="w-10"
                         />
                     </a>
@@ -76,7 +76,7 @@ export const Header: React.FC<HeaderProps> = props => {
                     </span>
                     <a href="https://www.linkedin.com/in/zygimantas-balcius-b6b0a3138/" target="_blank">
                         <img
-                            src="/src/assets/icons/linkedin.png"
+                            src="icons/linkedin.png"
                             className="w-10"
                         />
                     </a>
@@ -87,7 +87,7 @@ export const Header: React.FC<HeaderProps> = props => {
                     </span>
                     <a href="mailto:zygisbalcius@gmail.com">
                         <img
-                            src="/src/assets/icons/email.png"
+                            src="icons/email.png"
                             className="w-10"
                         />
                     </a>

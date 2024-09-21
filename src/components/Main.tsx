@@ -90,7 +90,7 @@ export const Main: React.FC<MainProps> = props => {
                 transition-opacity duration-300 lg:hover:opacity-10 rounded-md">
                     </a>
                     <div className="basis-[30%] order-last lg:order-none max-w-screen-sm">
-                        <img src="src/assets/carzone.png"
+                        <img src="carzone.png"
                         />
                     </div>
                     <div className="flex-1">
@@ -145,7 +145,7 @@ export const Main: React.FC<MainProps> = props => {
                 transition-opacity duration-300 lg:hover:opacity-10 rounded-md">
                     </a>
                     <div className="basis-[30%] order-last lg:order-none max-w-screen-sm">
-                        <img src="src/assets/tierlist.png"
+                        <img src="tierlist.png"
                         />
                     </div>
                     <div className="flex-1">
@@ -185,7 +185,7 @@ export const Main: React.FC<MainProps> = props => {
                 transition-opacity duration-300 lg:hover:opacity-10 rounded-md">
                     </a>
                     <div className="basis-[30%] order-last lg:order-none max-w-screen-sm">
-                        <img src="src/assets/cardGame.png"
+                        <img src="cardGame.png"
                         />
                     </div>
                     <div className="flex-1">
@@ -225,7 +225,7 @@ export const Main: React.FC<MainProps> = props => {
                 transition-opacity duration-300 lg:hover:opacity-10 rounded-md">
                     </a>
                     <div className="basis-[30%] order-last lg:order-none max-w-screen-sm">
-                        <img src="src/assets/calculator.png"
+                        <img src="calculator.png"
                         />
                     </div>
                     <div className="flex-1">
@@ -262,7 +262,7 @@ export const Main: React.FC<MainProps> = props => {
                 transition-opacity duration-300 lg:hover:opacity-10 rounded-md">
                     </a>
                     <div className="basis-[30%] order-last lg:order-none max-w-screen-sm">
-                        <img src="src/assets/todolist.png"
+                        <img src="todolist.png"
                         />
                     </div>
                     <div className="flex-1">
