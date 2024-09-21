@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .technology-style {
+        @apply rounded-full bg-teal-400/10 text-sm font-medium px-3 py-1 text-teal-300;
+    }
+
+    .hover-tooltip {
+        @apply absolute w-auto p-2 m-2 min-w-max bottom-9 -left-4 rounded-md shadow-md text-white bg-gray-900 text-xs font-bold transition-all duration-200 scale-0 origin-bottom
+    }
+}
