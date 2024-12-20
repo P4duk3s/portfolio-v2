@@ -82,6 +82,63 @@ export const Main: React.FC<MainProps> = props => {
                 </h2>
             </div>
             <div className="select-none" >
+                {/* meme-generator */}
+                <div className="mb-8 lg:mb-16 flex gap-3 relative p-3 flex-col lg:flex-row">
+                    <a href="https://meme-generator-frontend-aglo.onrender.com/"
+                        target="_blank"
+                        className="absolute w-full h-full top-0 left-0 bg-white opacity-0 z-10 
+                transition-opacity duration-300 lg:hover:opacity-10 rounded-md">
+                    </a>
+                    <div className="basis-[30%] order-last lg:order-none lg:mt-10 max-w-screen-sm">
+                        <img src="meme-generator.png"
+                        />
+                    </div>
+                    <div className="flex-1">
+                        <h3 className="text-slate-200">
+                            2024 - Meme generator
+                        </h3>
+                        <p className="mt-2">
+                            A fun side project that allows users to upload their own templates and create personalized memes.
+                            Developing this application not only provided me with the opportunity to explore various tools, including ImageKit for image management and ShadCN for UI components
+                            but it also brings a way to engage and share good moments with friends, family members or other people.
+                        </p>
+                        <p className="mt-2">
+                            In addition to enhancing my front-end skills, I aimed to deepen my understanding of backend development by learning MySQL. I focused on writing raw SQL queries to gain insights into database interactions and the underlying mechanics of data management, rather than relying on an Object-Relational Mapping (ORM) framework.
+                        </p>
+                        <ul className="mt-2 flex flex-wrap">
+                            <li className="mr-1.5 mt-2">
+                                <div className="technology-style">
+                                    React
+                                </div>
+                            </li>
+                            <li className="mr-1.5 mt-2">
+                                <div className="technology-style">
+                                    TypeScript
+                                </div>
+                            </li>
+                            <li className="mr-1.5 mt-2">
+                                <div className="technology-style">
+                                    Node.js
+                                </div>
+                            </li>
+                            <li className="mr-1.5 mt-2">
+                                <div className="technology-style">
+                                    MySQL
+                                </div>
+                            </li>
+                            <li className="mr-1.5 mt-2">
+                                <div className="technology-style">
+                                    Imagekit
+                                </div>
+                            </li>
+                            <li className="mr-1.5 mt-2">
+                                <div className="technology-style">
+                                    Shadcn
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
                 {/* carzone */}
                 <div className="mb-8 lg:mb-16 flex gap-3 relative p-3 flex-col lg:flex-row">
                     <a href="https://car-zone-frontend.onrender.com/"
@@ -89,7 +146,7 @@ export const Main: React.FC<MainProps> = props => {
                         className="absolute w-full h-full top-0 left-0 bg-white opacity-0 z-10 
                 transition-opacity duration-300 lg:hover:opacity-10 rounded-md">
                     </a>
-                    <div className="basis-[30%] order-last lg:order-none max-w-screen-sm">
+                    <div className="basis-[30%] order-last lg:order-none lg:mt-10  max-w-screen-sm">
                         <img src="carzone.png"
                         />
                     </div>
@@ -144,7 +201,7 @@ export const Main: React.FC<MainProps> = props => {
                         className=" absolute w-full h-full top-0 left-0 bg-white opacity-0 z-10 
                 transition-opacity duration-300 lg:hover:opacity-10 rounded-md">
                     </a>
-                    <div className="basis-[30%] order-last lg:order-none max-w-screen-sm">
+                    <div className="basis-[30%] order-last lg:order-none lg:mt-10 max-w-screen-sm">
                         <img src="tierlist.png"
                         />
                     </div>
@@ -184,7 +241,7 @@ export const Main: React.FC<MainProps> = props => {
                         className=" absolute w-full h-full top-0 left-0 bg-white opacity-0 z-10 
                 transition-opacity duration-300 lg:hover:opacity-10 rounded-md">
                     </a>
-                    <div className="basis-[30%] order-last lg:order-none max-w-screen-sm">
+                    <div className="basis-[30%] order-last lg:order-none lg:mt-10 max-w-screen-sm">
                         <img src="cardGame.png"
                         />
                     </div>
@@ -224,7 +281,7 @@ export const Main: React.FC<MainProps> = props => {
                         className=" absolute w-full h-full top-0 left-0 bg-white opacity-0 z-10 
                 transition-opacity duration-300 lg:hover:opacity-10 rounded-md">
                     </a>
-                    <div className="basis-[30%] order-last lg:order-none max-w-screen-sm">
+                    <div className="basis-[30%] order-last lg:order-none lg:my-auto max-w-screen-sm">
                         <img src="calculator.png"
                         />
                     </div>
@@ -249,36 +306,6 @@ export const Main: React.FC<MainProps> = props => {
                             <li className="mr-1.5 mt-2">
                                 <div className="technology-style">
                                     JavaScript
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                {/* to do list */}
-                <div className="mb-4 flex gap-3 relative p-3 flex-col lg:flex-row">
-                    <a href="https://p4duk3s.github.io/to-do-list/"
-                        target="_blank"
-                        className=" absolute w-full h-full top-0 left-0 bg-white opacity-0 z-10 
-                transition-opacity duration-300 lg:hover:opacity-10 rounded-md">
-                    </a>
-                    <div className="basis-[30%] order-last lg:order-none max-w-screen-sm">
-                        <img src="todolist.png"
-                        />
-                    </div>
-                    <div className="flex-1">
-                        <h3 className="text-slate-200">
-                            2021 - To do list
-                        </h3>
-                        <p className="mt-2">
-                            I was very interested in learning a front-end framework. I chose React because it's probably the most popular, has strong community support, is trusted by great companies, fairly easy to learn and is in demand.
-                        </p>
-                        <p>
-                            By doing this project I got acquainted with React basics. How website elements are split into components which have their own environtments and can be created as functional or class components. I also learned about manipulating the state and working with arrays.
-                        </p>
-                        <ul className="mt-2 flex flex-wrap">
-                            <li className="mr-1.5 mt-2">
-                                <div className="technology-style">
-                                    React
                                 </div>
                             </li>
                         </ul>
