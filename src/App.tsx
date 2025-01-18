@@ -1,7 +1,8 @@
-import { useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import './App.css'
 import { Header } from './components/Header'
 import { Main } from './components/Main'
+import { CursorGradient } from './components/CursorGradient'
 
 function App() {
     const sectionRefs = [
@@ -10,7 +11,10 @@ function App() {
         useRef(null),
     ]
 
-    return <div className="bg-slate-900 text-slate-400 ">
+
+
+    return <div className="bg-slate-900 text-slate-400 relative">
+        <CursorGradient />
         <div className="mx-auto min-h-screen max-w-screen-xl">
             <div className="flex flex-col lg:flex-row">
                 <Header sectionRefs={sectionRefs} />

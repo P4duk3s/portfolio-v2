@@ -15,10 +15,10 @@ export const Main: React.FC<MainProps> = props => {
             </div>
             <div id="about" className="mb-8 lg:mb-28 p-3 lg:p-0">
                 <p className="mb-4">
-                    I am a passionate and motivated Junior Web Developer with 2 years of experience in building responsive and dynamic web applications. My expertise lies in working with modern front-end and back-end technologies such as React, TypeScript, Styled-Components, and Node.js. I have a strong foundation in developing scalable and user-friendly web solutions, with a focus on clean code and best practices.
+                    I am a passionate and motivated Junior Web Developer with 2 years of experience in building responsive and dynamic web applications. My expertise lies in working with modern front-end and back-end technologies such as <span className="text-slate-200">React, TypeScript, Styled-Components, and Node.js.</span>  I have a strong foundation in developing scalable and user-friendly web solutions, with a focus on <span className="text-slate-200">clean code</span> and <span className="text-slate-200">best practices.</span>
                 </p>
                 <p className="mb-4">
-                    Throughout my experience, I have contributed to the full software development lifecycle, and constantly sought to improve my skills by learning new tools and techniques. I am eager to bring my technical knowledge and problem-solving abilities to new challenges and continue growing in the field of web development.
+                    Throughout my experience, I have contributed to the full software development lifecycle, and constantly sought to improve my skills by learning new tools and techniques. I am eager to bring my technical knowledge and  <span className="text-slate-200">problem-solving</span> abilities to new challenges and continue growing in the field of web development.
                 </p>
                 <p>
                     Big car enthusiast with a deep appreciation for car design and engineering. I have a strong love for travel and exploring new destinations. As a dedicated basketball fan, I regularly watch and support my home town team "Zalgiris". In my downtime, I am an avid gamer, enjoying both immersive single-player adventures and the competitive thrill of battle royale games.

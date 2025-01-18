@@ -26,8 +26,9 @@ export const Header: React.FC<HeaderProps> = props => {
 
             <nav className="mt-16 hidden lg:block">
                 <ul>
-                    <li>
-                        <button className={`hover:text-slate-200 py-3 font-bold ${activeSection === 0 && "text-slate-200"}`}
+                    <li className="group flex items-center py-3">
+                        <span className={`mr-4 h-[2px] ${activeSection === 0 ? "w-16 bg-slate-200" : "w-8 bg-slate-600"} transition-all group-hover:w-16 group-hover:bg-slate-200`}></span>
+                        <button className={`hover:text-slate-200 font-bold ${activeSection === 0 && "text-slate-200"}`}
                             onClick={() => document.getElementById("about")?.scrollIntoView({
                                 behavior: "smooth",
                                 block: "start"
@@ -35,8 +36,9 @@ export const Header: React.FC<HeaderProps> = props => {
                             ABOUT
                         </button>
                     </li>
-                    <li>
-                        <button className={`hover:text-slate-200 py-3 font-bold ${activeSection === 1 && "text-slate-200"}`}
+                    <li className="group flex items-center py-3">
+                        <span className={`mr-4 h-[2px] ${activeSection === 1 ? "w-16 bg-slate-200" : "w-8 bg-slate-600"} transition-all group-hover:w-16 group-hover:bg-slate-200`}></span>
+                        <button className={`hover:text-slate-200 font-bold ${activeSection === 1 && "text-slate-200"}`}
                             onClick={() => document.getElementById("experience")?.scrollIntoView({
                                 behavior: "smooth",
                                 block: "start"
@@ -44,8 +46,9 @@ export const Header: React.FC<HeaderProps> = props => {
                             EXPERIENCE
                         </button>
                     </li>
-                    <li>
-                        <button className={`hover:text-slate-200 py-3 font-bold ${activeSection === 2 && "text-slate-200"}`}
+                    <li className="group flex items-center py-3">
+                        <span className={`mr-4 h-[2px] ${activeSection === 2 ? "w-16 bg-slate-200" : "w-8 bg-slate-600"} transition-all group-hover:w-16 group-hover:bg-slate-200`}></span>
+                        <button className={`hover:text-slate-200 font-bold ${activeSection === 2 && "text-slate-200"}`}
                             onClick={() => document.getElementById("projects")?.scrollIntoView({
                                 behavior: "smooth",
                                 block: "start"
